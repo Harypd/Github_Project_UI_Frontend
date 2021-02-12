@@ -1,0 +1,32 @@
+{
+  "data": {
+    "search": {
+      "edges": [
+        {
+          "node": {
+            "login": "github-userx",
+            "repositories": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "MDEwOlJlcG9zaXRvcnkxNjQ4NjE0NjQ=",
+                    "name": "test-repository",
+                    "forkCount": 0,
+                    "url": "https://github.com/github-userx/openvpn-update-resolv-conf",
+                    "updatedAt": "2019-06-09T10:56:12Z",
+                    "__typename": "Repository"
+                  },
+                  "__typename": "RepositoryEdge"
+                }
+              ],
+              "__typename": "RepositoryConnection"
+            },
+            "__typename": "User"
+          },
+          "__typename": "SearchResultItemEdge"
+        }
+      ],
+      "__typename": "SearchResultItemConnection"
+    }
+  }
+}

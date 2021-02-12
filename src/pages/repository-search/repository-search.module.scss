@@ -1,0 +1,20 @@
+.user-list {
+  margin-top: 94px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10%;
+  height: 100%;
+  min-width: 350px;
+  overflow: auto;
+  background-color: var(--white);
+  &.dark {
+    background-color: var(--black);
+    color: var(--white);
+  }
+}

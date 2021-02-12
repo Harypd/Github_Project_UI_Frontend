@@ -1,0 +1,20 @@
+{
+  "data": {
+    "search": {
+      "edges": [
+        {
+          "node": {
+            "login": "github-userx",
+            "repositories": {
+              "edges": [],
+              "__typename": "RepositoryConnection"
+            },
+            "__typename": "User"
+          },
+          "__typename": "SearchResultItemEdge"
+        }
+      ],
+      "__typename": "SearchResultItemConnection"
+    }
+  }
+}

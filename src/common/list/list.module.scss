@@ -1,0 +1,18 @@
+.repo-list {
+  column-count: 5;
+  list-style-type: none;
+  width: 94vw;
+}
+
+.no-data {
+  color: var(--no-data-color);
+  font-weight: 800;
+}
+
+.search-container {
+  position: relative;
+  top: 85px;
+  left: 22px;
+  display: flex;
+
+}
